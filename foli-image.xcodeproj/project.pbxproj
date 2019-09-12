@@ -3,25 +3,47 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		210852E922D2FFDC00BC0D71 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210852E822D2FFDC00BC0D71 /* TabBarController.swift */; };
+		210852EB22D3001800BC0D71 /* FindViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210852EA22D3001800BC0D71 /* FindViewController.swift */; };
+		210852ED22D3004500BC0D71 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210852EC22D3004500BC0D71 /* AccountViewController.swift */; };
+		210852EF22D3018D00BC0D71 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210852EE22D3018D00BC0D71 /* SignInViewController.swift */; };
+		21481A0222F2788F0019B1B1 /* Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21481A0122F2788F0019B1B1 /* Tree.swift */; };
+		21481A0422F27A2F0019B1B1 /* TreeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21481A0322F27A2F0019B1B1 /* TreeCollectionViewCell.swift */; };
+		21481A0C22F34A4A0019B1B1 /* TreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21481A0B22F34A4A0019B1B1 /* TreeViewController.swift */; };
+		21481A0E22F35C2A0019B1B1 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21481A0D22F35C2A0019B1B1 /* MapViewController.swift */; };
+		21AD2DDF232178A000272909 /* Nework Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21AD2DDE232178A000272909 /* Nework Manager.swift */; };
+		21AD2DE223217B1A00272909 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21AD2DE123217B1A00272909 /* User.swift */; };
 		21CC779E22CB0911008C780F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21CC779D22CB0911008C780F /* AppDelegate.swift */; };
 		21CC77A022CB0911008C780F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21CC779F22CB0911008C780F /* ViewController.swift */; };
-		21CC77A322CB0911008C780F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21CC77A122CB0911008C780F /* Main.storyboard */; };
 		21CC77A522CB0912008C780F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21CC77A422CB0912008C780F /* Assets.xcassets */; };
 		21CC77A822CB0912008C780F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21CC77A622CB0912008C780F /* LaunchScreen.storyboard */; };
+		39EB45E7C1033E9589A7ED36 /* Pods_foli_image.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B0587EA104C261D66DEEABA /* Pods_foli_image.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		153724C2FBD13249807CFBCD /* Pods-foli-image.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-foli-image.debug.xcconfig"; path = "Target Support Files/Pods-foli-image/Pods-foli-image.debug.xcconfig"; sourceTree = "<group>"; };
+		1B0587EA104C261D66DEEABA /* Pods_foli_image.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_foli_image.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		210852E822D2FFDC00BC0D71 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		210852EA22D3001800BC0D71 /* FindViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindViewController.swift; sourceTree = "<group>"; };
+		210852EC22D3004500BC0D71 /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; wrapsLines = 0; };
+		210852EE22D3018D00BC0D71 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		21481A0122F2788F0019B1B1 /* Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tree.swift; sourceTree = "<group>"; };
+		21481A0322F27A2F0019B1B1 /* TreeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeCollectionViewCell.swift; sourceTree = "<group>"; };
+		21481A0B22F34A4A0019B1B1 /* TreeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeViewController.swift; sourceTree = "<group>"; };
+		21481A0D22F35C2A0019B1B1 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		21AD2DDE232178A000272909 /* Nework Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Nework Manager.swift"; path = "foli-image/Models/Network/Nework Manager.swift"; sourceTree = SOURCE_ROOT; };
+		21AD2DE123217B1A00272909 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		21CC779A22CB0911008C780F /* foli-image.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "foli-image.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		21CC779D22CB0911008C780F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		21CC779F22CB0911008C780F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		21CC77A222CB0911008C780F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		21CC77A422CB0912008C780F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		21CC77A722CB0912008C780F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		21CC77A922CB0912008C780F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27876340889A41D3F2E0A2E4 /* Pods-foli-image.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-foli-image.release.xcconfig"; path = "Target Support Files/Pods-foli-image/Pods-foli-image.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +51,69 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39EB45E7C1033E9589A7ED36 /* Pods_foli_image.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		21481A0522F2805A0019B1B1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				210852EE22D3018D00BC0D71 /* SignInViewController.swift */,
+				210852E822D2FFDC00BC0D71 /* TabBarController.swift */,
+				210852EC22D3004500BC0D71 /* AccountViewController.swift */,
+				210852EA22D3001800BC0D71 /* FindViewController.swift */,
+				21CC779F22CB0911008C780F /* ViewController.swift */,
+				21481A0B22F34A4A0019B1B1 /* TreeViewController.swift */,
+				21481A0D22F35C2A0019B1B1 /* MapViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		21481A0722F280740019B1B1 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				21481A0322F27A2F0019B1B1 /* TreeCollectionViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		21481A0922F280970019B1B1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				21AD2DE0232178AB00272909 /* Network */,
+				21CC77A622CB0912008C780F /* LaunchScreen.storyboard */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		21481A0A22F280A50019B1B1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				21CC77A422CB0912008C780F /* Assets.xcassets */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		21AD2DE0232178AB00272909 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				21AD2DDE232178A000272909 /* Nework Manager.swift */,
+				21481A0122F2788F0019B1B1 /* Tree.swift */,
+				21AD2DE123217B1A00272909 /* User.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
 		21CC779122CB0911008C780F = {
 			isa = PBXGroup;
 			children = (
 				21CC779C22CB0911008C780F /* foli-image */,
 				21CC779B22CB0911008C780F /* Products */,
+				AAA9D3461101D2DE865E5CCD /* Pods */,
+				9C90CA576AA9E82970D89C39 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +129,30 @@
 			isa = PBXGroup;
 			children = (
 				21CC779D22CB0911008C780F /* AppDelegate.swift */,
-				21CC779F22CB0911008C780F /* ViewController.swift */,
-				21CC77A122CB0911008C780F /* Main.storyboard */,
-				21CC77A422CB0912008C780F /* Assets.xcassets */,
-				21CC77A622CB0912008C780F /* LaunchScreen.storyboard */,
 				21CC77A922CB0912008C780F /* Info.plist */,
+				21481A0A22F280A50019B1B1 /* Views */,
+				21481A0522F2805A0019B1B1 /* Controllers */,
+				21481A0922F280970019B1B1 /* Models */,
+				21481A0722F280740019B1B1 /* Cells */,
 			);
 			path = "foli-image";
+			sourceTree = "<group>";
+		};
+		9C90CA576AA9E82970D89C39 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1B0587EA104C261D66DEEABA /* Pods_foli_image.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AAA9D3461101D2DE865E5CCD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				153724C2FBD13249807CFBCD /* Pods-foli-image.debug.xcconfig */,
+				27876340889A41D3F2E0A2E4 /* Pods-foli-image.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +162,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 21CC77AC22CB0912008C780F /* Build configuration list for PBXNativeTarget "foli-image" */;
 			buildPhases = (
+				F3A26D5A35BE53FA3D495BDA /* [CP] Check Pods Manifest.lock */,
 				21CC779622CB0911008C780F /* Sources */,
 				21CC779722CB0911008C780F /* Frameworks */,
 				21CC779822CB0911008C780F /* Resources */,
+				8D759F2A7BBCCE0F0DE5A263 /* [CP] Embed Pods Frameworks */,
+				63519B6461A62411BA6A29D0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,33 +218,93 @@
 			files = (
 				21CC77A822CB0912008C780F /* LaunchScreen.storyboard in Resources */,
 				21CC77A522CB0912008C780F /* Assets.xcassets in Resources */,
-				21CC77A322CB0911008C780F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		63519B6461A62411BA6A29D0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-foli-image/Pods-foli-image-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-foli-image/Pods-foli-image-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-foli-image/Pods-foli-image-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D759F2A7BBCCE0F0DE5A263 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-foli-image/Pods-foli-image-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-foli-image/Pods-foli-image-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-foli-image/Pods-foli-image-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3A26D5A35BE53FA3D495BDA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-foli-image-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		21CC779622CB0911008C780F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21AD2DDF232178A000272909 /* Nework Manager.swift in Sources */,
+				21481A0222F2788F0019B1B1 /* Tree.swift in Sources */,
+				21481A0C22F34A4A0019B1B1 /* TreeViewController.swift in Sources */,
+				210852E922D2FFDC00BC0D71 /* TabBarController.swift in Sources */,
+				21481A0E22F35C2A0019B1B1 /* MapViewController.swift in Sources */,
+				210852ED22D3004500BC0D71 /* AccountViewController.swift in Sources */,
+				210852EF22D3018D00BC0D71 /* SignInViewController.swift in Sources */,
 				21CC77A022CB0911008C780F /* ViewController.swift in Sources */,
+				21AD2DE223217B1A00272909 /* User.swift in Sources */,
 				21CC779E22CB0911008C780F /* AppDelegate.swift in Sources */,
+				21481A0422F27A2F0019B1B1 /* TreeCollectionViewCell.swift in Sources */,
+				210852EB22D3001800BC0D71 /* FindViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		21CC77A122CB0911008C780F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				21CC77A222CB0911008C780F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		21CC77A622CB0912008C780F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -280,6 +434,7 @@
 		};
 		21CC77AD22CB0912008C780F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 153724C2FBD13249807CFBCD /* Pods-foli-image.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -291,13 +446,14 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.JeremyBen-Meir.foli-image";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		21CC77AE22CB0912008C780F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27876340889A41D3F2E0A2E4 /* Pods-foli-image.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -309,7 +465,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.JeremyBen-Meir.foli-image";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
